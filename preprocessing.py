@@ -165,7 +165,6 @@ pred_train_df['result'] = b.values
 summation_train = pred_train_df['result'].sum(axis=0)
 accuracy_train = float(summation_train) / float(len(pred_train_df))
 print("Training accuracy: " + str(accuracy_train))
-print(pred_train_df)
 
 print("Prediction validation...")
 pred_val = rf.predict(x_val)
