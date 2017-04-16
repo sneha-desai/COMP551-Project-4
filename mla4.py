@@ -3,6 +3,8 @@
 Created on Sat Apr 15 16:43:24 2017
 
 @author: Riyad Imrul
+
+Code inspired by: https://github.com/mbilalzafar/fair-classification
 """
 
 import os,sys
