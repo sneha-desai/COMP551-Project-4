@@ -1,3 +1,5 @@
+#Code taken from: https://github.com/mbilalzafar/fair-classification
+
 import os,sys
 import numpy as np
 from generate_synthetic_data import *
